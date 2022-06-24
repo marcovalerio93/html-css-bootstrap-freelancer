@@ -2,11 +2,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 :root{
-    --ms_background-color: #2C3E51;
+    --ms_bg-primary-color: #2C3E51;
+    --ms_bg-secondary-color: #1abc9c;
+    --ms_bg-tertiary-color: #3a546d;
 }
 
 .ms_header{
-    background-color: var(--ms_background-color);
+    background-color: var(--ms_bg-primary-color);
 }
 
 #jambo{
@@ -16,29 +18,30 @@ body{
 #jambo .ms_img{
     width: 200px;
     height: auto;
-    margin: auto;
-
+    margin: auto; 
 }
 
 
-#portfolio .ms_card{
-    background-color: lightskyblue ;
-    min-height: 100px;
-    width: auto;
-}
+
+
 #portfolio .ms_c-img{
     width: 100%;
     height: auto;
     margin: auto;
 }
-
-#ms_f-top{
-    background-color: #3a546d;
+#about{
+    background-color: var(--ms_bg-secondary-color);
     color: #fff;
+}
+#ms_f-top{
+    background-color: var(--ms_bg-tertiary-color);
+    color: #fff;
+}
+.ms_t-color-secondary{
+    color: var(--ms_bg-secondary-color);
 }
 
 #ms_f-bottom{
-    background-color: var(--ms_background-color);
+    background-color: var(--ms_bg-primary-color);
     color: #fff;
-
 }
