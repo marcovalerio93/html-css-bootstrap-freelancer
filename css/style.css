@@ -11,12 +11,25 @@ body{
 
 #jambo{
     background-color: #1abc9c ;
+    color: #fff;
+}
+#jambo .ms_img{
+    width: 200px;
+    height: auto;
+    margin: auto;
+
 }
 
-#cards .ms_card{
+
+#portfolio .ms_card{
     background-color: lightskyblue ;
     min-height: 100px;
     width: auto;
+}
+#portfolio .ms_c-img{
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 #ms_f-top{
