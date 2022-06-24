@@ -12,3 +12,10 @@ body{
 #jambo{
     background-color: #1abc9c ;
 }
+
+#cards .ms_card{
+    background-color: lightskyblue ;
+    min-height: 100px;
+    width: auto;
+
+}
