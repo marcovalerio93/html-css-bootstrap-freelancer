@@ -1,3 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+    --ms_background-color: #2C3E51;
+}
+
+.ms_header{
+    background-color: var(--ms_background-color);
+}
+
+#jambo{
+    background-color: #1abc9c ;
+}
