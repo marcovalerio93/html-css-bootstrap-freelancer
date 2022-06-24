@@ -18,3 +18,14 @@ body{
     min-height: 100px;
     width: auto;
 }
+
+#ms_f-top{
+    background-color: #3a546d;
+    color: #fff;
+}
+
+#ms_f-bottom{
+    background-color: var(--ms_background-color);
+    color: #fff;
+
+}
