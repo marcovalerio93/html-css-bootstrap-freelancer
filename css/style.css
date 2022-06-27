@@ -87,14 +87,14 @@ body{
     height: 100%;
     left: 0;
     top: 0;
-    background-color: var(--ms_bg-secondary-color);
-    opacity: 0;
-    transition: 0.5;
+    background-color: rgba( 10, 73, 61, 0.7);
+    visibility: hidden;
+     
 }
-.ms_portfolio-item:hover .ms_overlay{
-    opacity: 1;
+.ms_card:hover .ms_overlay{
+    visibility:visible;
+} 
 
-}
 #about{
     background-color: var(--ms_bg-secondary-color);
     color: #fff;
